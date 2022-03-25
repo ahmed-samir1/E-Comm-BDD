@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="152928" started-at="2022-03-16T12:38:29 AST" finished-at="2022-03-16T12:41:02 AST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="152928" started-at="2022-03-16T12:38:29 AST" finished-at="2022-03-16T12:41:02 AST">
+      <class name="com.automation.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="setUpClass" is-config="true" duration-ms="949" started-at="2022-03-16T12:38:29 AST" finished-at="2022-03-16T12:38:30 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7336fd8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="15288" started-at="2022-03-16T12:38:30 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:38:46 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Successful Registration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F00_Registration |  User could register with valid data]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="10789" started-at="2022-03-16T12:38:46 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:38:56 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user should be able to login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F01_Login | Users could use login functionality to open their accounts with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="10765" started-at="2022-03-16T12:38:56 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:39:07 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user should be able to reset password successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F02_ForgetPassword | User could reset his/her password successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="12199" started-at="2022-03-16T12:39:07 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:39:19 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user could search for product using fullname"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F03_Search | Logged User could search for any product]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="10530" started-at="2022-03-16T12:39:19 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:39:30 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User change currency successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F04_ChangeCurrency |  User could change currency successfully]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="11378" started-at="2022-03-16T12:39:30 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:39:41 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User could choose different categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F05_ProductHover |  User could choose different categories]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="11516" started-at="2022-03-16T12:39:41 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:39:53 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User could filter shoes by colors"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F06_FilterColor |  User could filter product with color]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="10454" started-at="2022-03-16T12:39:53 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:40:03 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User could select different tags"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F07_SelectTag |  Logged user could select different tags]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="13793" started-at="2022-03-16T12:40:03 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:40:17 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User add different products to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F08_AddToCart |  Logged user could add different products to Shopping cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="13297" started-at="2022-03-16T12:40:17 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:40:30 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User add different products to Wishlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F09_AddToWishList |  Logged user could add different products to Wishlist]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="13900" started-at="2022-03-16T12:40:30 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:40:44 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User add different products to compare list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F10_AddToCompareList |  Logged user could add different products to compare list]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="runScenario" duration-ms="17632" started-at="2022-03-16T12:40:44 AST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-16T12:41:02 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User add different products to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[F11_SuccessfulOrder |  Create successful Order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.runners.TestRunner@57e1b0c]" name="tearDownClass" is-config="true" duration-ms="401" started-at="2022-03-16T12:41:02 AST" finished-at="2022-03-16T12:41:02 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
