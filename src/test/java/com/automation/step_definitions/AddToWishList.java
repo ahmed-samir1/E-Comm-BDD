@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class AddToWishList {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    WishList addToWishlist = new WishList((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    WishList addToWishlist = new WishList((ChromeDriver) TestBase.driver);
 
     @Given("User logs")
     public void User_logs(){

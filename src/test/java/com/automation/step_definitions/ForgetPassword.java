@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 public class ForgetPassword {
 
-    ForgetPasswordPage RecoverPass = new ForgetPasswordPage((ChromeDriver) Hooks.driver);
+    ForgetPasswordPage RecoverPass = new ForgetPasswordPage((ChromeDriver) TestBase.driver);
     @When("User goes to login page")
     public void go_to_login_page(){
         RecoverPass.OpenLoginPage();

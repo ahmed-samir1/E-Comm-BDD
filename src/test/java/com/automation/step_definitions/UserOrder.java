@@ -9,9 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class UserOrder {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    AddToCart addToCart = new AddToCart((ChromeDriver) Hooks.driver);
-    SuccessfulOrder order = new SuccessfulOrder((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    AddToCart addToCart = new AddToCart((ChromeDriver) TestBase.driver);
+    SuccessfulOrder order = new SuccessfulOrder((ChromeDriver) TestBase.driver);
 
     @Given("user login")
     public void user_login(){

@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class FilterWithColor {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    FilterColor filterColor = new FilterColor((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    FilterColor filterColor = new FilterColor((ChromeDriver) TestBase.driver);
 
     @Given("The Logged user")
     public void Logged_user(){
@@ -27,7 +27,7 @@ public class FilterWithColor {
     }
     @Then("Required product color appears successfully")
     public void Blue_Choose_appears_successfully(){
-        Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("specs=16"));
+        Assert.assertTrue(TestBase.driver.getCurrentUrl().contains("specs=16"));
 
     }
 

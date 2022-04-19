@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Hooks {
+public class TestBase {
     public static   WebDriver driver;
 
     @Before

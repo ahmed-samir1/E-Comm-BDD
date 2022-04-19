@@ -1,6 +1,5 @@
 package com.automation.step_definitions;
 import com.automation.pages.ChangeCurrency;
-import com.automation.pages.SearchPage;
 import com.automation.pages.loginPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,8 +9,8 @@ import org.testng.Assert;
 
 public class UserChangeCurrency {
 
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    ChangeCurrency changeCurrency = new ChangeCurrency((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    ChangeCurrency changeCurrency = new ChangeCurrency((ChromeDriver) TestBase.driver);
 
     @Given("Logged user")
     public void logged_user(){

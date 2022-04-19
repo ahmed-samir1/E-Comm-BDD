@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class addToCart {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    AddToCart addToCart = new AddToCart((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    AddToCart addToCart = new AddToCart((ChromeDriver) TestBase.driver);
 
     @Given("User log")
     public void User_log(){

@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class UserSearch {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    SearchPage search = new SearchPage((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    SearchPage search = new SearchPage((ChromeDriver) TestBase.driver);
 
     @Given("Logged-in user")
     public void logged_in(){

@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class AddToCompareList {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    CompareList addToComparelist = new CompareList((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    CompareList addToComparelist = new CompareList((ChromeDriver) TestBase.driver);
 
     @Given("logged user")
     public void logged_user(){

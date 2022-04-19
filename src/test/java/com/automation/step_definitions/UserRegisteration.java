@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 public class UserRegisteration {
 
-    RegisterPage register = new RegisterPage((ChromeDriver) Hooks.driver);
+    RegisterPage register = new RegisterPage((ChromeDriver) TestBase.driver);
 
     @Given("User go to registration page")
     public void click_on_register_link(){

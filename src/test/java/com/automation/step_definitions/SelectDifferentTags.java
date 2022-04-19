@@ -8,8 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class SelectDifferentTags {
-    loginPage login = new loginPage((ChromeDriver) Hooks.driver);
-    SelectTag selectTag = new SelectTag((ChromeDriver) Hooks.driver);
+    loginPage login = new loginPage((ChromeDriver) TestBase.driver);
+    SelectTag selectTag = new SelectTag((ChromeDriver) TestBase.driver);
     @Given("User login")
     public void User_log(){
         login.OpenLoginPage();
@@ -29,6 +29,6 @@ public class SelectDifferentTags {
 
     @Then("Related products appear successfully")
     public void related_tag_products(){
-        Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("awesome"));
+        Assert.assertTrue(TestBase.driver.getCurrentUrl().contains("awesome"));
     }
 }
